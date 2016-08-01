@@ -17,7 +17,7 @@ local function enable_channel(receiver)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return 'ربات خاموش نمی باشد 🚀'
+		return ''
 	end
 	
 	_config.disabled_channels[receiver] = false
